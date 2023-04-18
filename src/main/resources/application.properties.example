@@ -1,0 +1,14 @@
+quarkus.http.port=
+#quarkus.log.category."org.apache.http".level=DEBUG
+
+mp.jwt.verify.publickey.location=
+
+%test.mp.jwt.verify.publickey.location= 
+mp.jwt.verify.issuer=
+
+quarkus.http.auth.permission.permit1.policy=permit
+quarkus.http.auth.permission.permit1.paths=/
+
+reniec.password=
+reniec.ruc-user=
+reniec.dni-user=

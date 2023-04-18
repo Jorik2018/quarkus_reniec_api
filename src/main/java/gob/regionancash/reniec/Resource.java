@@ -42,8 +42,11 @@ public class Resource  extends SOAPClient{
     private ExecutorService executorService = Executors.newCachedThreadPool();
     private Client client;
 
+	@ConfigProperty(name = "reniec.password") 
     private String password="40931308";
+	@ConfigProperty(name = "reniec.ruc-user") 
     private String nuRucUsuario="20530689019";
+	@ConfigProperty(name = "reniec.dni-user") 
     private String nuDniUsuario="40931308";
     
 	//@Inject
